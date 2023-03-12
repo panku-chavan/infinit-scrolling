@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.main {
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.main>div {
+    text-align: left;
+    line-height: 10px;
+}
+
+.main>form {
+    text-align: left;
+}
+.main>form>input{
+    width: 100%;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 0.5px solid teal;
+    /* border-bottom: 1px solid teal; */
+}
+
+.main>form>input[type="submit"]{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

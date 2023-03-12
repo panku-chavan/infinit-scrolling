@@ -1,0 +1,23 @@
+.hcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hWrapper {
+    width: 30%;
+}
+
+@media screen and (max-width: 380px) {
+    .hWrapper {
+        width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .hWrapper {
+        width: 70%;
+    }
+  }

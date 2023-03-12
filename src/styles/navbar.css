@@ -1,0 +1,26 @@
+.nav_container {
+    width: 100%;
+    /* max-width: 1024px; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color:#fff;  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+   
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
