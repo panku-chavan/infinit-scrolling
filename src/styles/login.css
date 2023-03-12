@@ -7,7 +7,7 @@
     margin-top: 50px;
     padding: 10px 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: white;
+    background-color: rgb(173, 247, 240);
 }
 
 .main>div {
@@ -32,6 +32,6 @@
 
 .main>form>input[type="submit"]{
     background-color: black;
-    color: white;
+    color: rgb(173, 247, 240);
     cursor: pointer;
 }

@@ -8,6 +8,7 @@ const Navbar = () => {
     return (
         <div className="nav_container">
             <div className='navbar'>
+                
                 {authState.isAuth ?
                     <h2 className="navlink" onClick={() => logoutUser()}>Logout</h2>
                     : <>
